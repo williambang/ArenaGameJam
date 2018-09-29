@@ -82,8 +82,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1710400758671884}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.77, y: 2, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: -6.256667, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4736600070153544}
   m_Father: {fileID: 0}
@@ -198,5 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: {fileID: 1446016341619798, guid: 51591e09233a09847b5fe33d053c074d, type: 2}
-  reloadTime: 5
+  reloadTimeMin: 1
+  reloadTimeMax: 4
   shootPoint: {fileID: 4986797123787536}
+  canShoot: 1

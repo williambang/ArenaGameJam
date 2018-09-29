@@ -25,6 +25,8 @@ public class bulletScript : MonoBehaviour {
 
 		Destroy(gameObject);
 		
-		hitCollision.gameObject.GetComponent<playerScript>().takeDamage(damage);
+		if(hitCollision.gameObject.tag == "player") {
+			hitCollision.gameObject.GetComponent<playerScript>().takeDamage(damage);
+		}
 	}
 }

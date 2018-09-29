@@ -11,5 +11,11 @@ public class playerScript : MonoBehaviour
         var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
         transform.Translate(x, 0, z);
+        MovePlayer();
+    }
+
+    void MovePlayer()
+    {
+        Debug.Log("Blabladick");
     }
 }

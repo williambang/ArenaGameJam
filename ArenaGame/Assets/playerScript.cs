@@ -4,6 +4,11 @@ public class playerScript : MonoBehaviour
 {
 	public float speed;
 	public int health;
+	public string playerName;
+
+	void Start() {
+
+	}
 
     void Update()
     {
@@ -12,4 +17,10 @@ public class playerScript : MonoBehaviour
 
         transform.Translate(x, 0, z);
     }
+
+	public void takeDamage(int damage) {
+
+		health = health - damage;
+
+	}
 }

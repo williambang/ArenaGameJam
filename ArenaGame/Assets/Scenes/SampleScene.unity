@@ -454,24 +454,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &660117237
+=======
+--- !u!1 &1731735659
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 660117241}
   - component: {fileID: 660117240}
   - component: {fileID: 660117239}
   - component: {fileID: 660117238}
   m_Layer: 0
   m_Name: Cylinder
+=======
+  - component: {fileID: 1731735663}
+  - component: {fileID: 1731735662}
+  - component: {fileID: 1731735661}
+  - component: {fileID: 1731735660}
+  m_Layer: 0
+  m_Name: hellooo
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!136 &660117238
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -575,23 +589,38 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &826165851
+=======
+--- !u!135 &1731735660
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 826165849}
+=======
+  m_GameObject: {fileID: 1731735659}
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!23 &826165852
+=======
+--- !u!23 &1731735661
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 826165849}
+=======
+  m_GameObject: {fileID: 1731735659}
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -601,7 +630,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  - {fileID: 2100000, guid: 7ba42cd7c3e588048a3132989ec6b0ca, type: 2}
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -621,11 +654,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!33 &826165853
+=======
+--- !u!33 &1731735662
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 826165849}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2124357301
@@ -647,10 +685,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2124357302
+=======
+  m_GameObject: {fileID: 1731735659}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1731735663
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2124357301}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.06, z: 0}
@@ -713,3 +757,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2124357301}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_GameObject: {fileID: 1731735659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.87, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> e0ea43c00d38ce36bdb983ac8439a358b988e8be

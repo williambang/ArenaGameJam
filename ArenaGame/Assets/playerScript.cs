@@ -8,6 +8,7 @@ public class playerScript : MonoBehaviour
 	public string playerName;
 	public Text healthUi;
 	public Text deathUi;
+	public GameObject[] abilites;
 
 	void Start() {
 		healthUi.text = health.ToString();
@@ -29,6 +30,11 @@ public class playerScript : MonoBehaviour
 			die();
 		}
 
+	}
+
+	void useAbility(int index) {
+		GameObject ability = abilites[index];
+		Instantiate(ability, transform.position, transform.rotation);
 	}
 
 	void die() {

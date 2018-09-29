@@ -12,6 +12,7 @@ public class playerScript : MonoBehaviour
 
 
         transform.Translate(x, 0, z);
+<<<<<<< HEAD
         //moveplayer();
     }
 
@@ -19,5 +20,13 @@ public class playerScript : MonoBehaviour
     void moveplayer()
     {
         Debug.Log("scream");
+=======
+        MovePlayer();
+    }
+
+    void MovePlayer()
+    {
+        Debug.Log("Blabladick");
+>>>>>>> d0fa94580aa23e488a44c17978d21fafc981771b
     }
 }

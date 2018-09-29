@@ -179,6 +179,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Message: yoyoyo
+  Range: 0
+  Cooldown: 0
+  Duration: 0
 --- !u!198 &198297710710587560
 ParticleSystem:
   m_ObjectHideFlags: 1

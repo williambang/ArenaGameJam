@@ -335,14 +335,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 408713774}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00619e3007fc0d3429a922c3f89c3c56, type: 3}
+  m_Script: {fileID: 11500000, guid: fa243610444553b408bf8b81d44dbd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
   health: 100
-  playerName: Sally Coolhead
-  healthUi: {fileID: 2011992719}
-  deathUi: {fileID: 607959146}
+  playerName: 
+  healthUi: {fileID: 0}
+  deathUi: {fileID: 0}
 --- !u!136 &408713776
 CapsuleCollider:
   m_ObjectHideFlags: 0

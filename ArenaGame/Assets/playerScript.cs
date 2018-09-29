@@ -7,9 +7,17 @@ public class playerScript : MonoBehaviour
 
     void Update()
     {
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
-        var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
+        float x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
+        float z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
+
 
         transform.Translate(x, 0, z);
+        //moveplayer();
+    }
+
+
+    void moveplayer()
+    {
+        Debug.Log("scream");
     }
 }

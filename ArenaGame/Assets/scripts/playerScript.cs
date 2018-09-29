@@ -16,10 +16,24 @@ public class playerScript : MonoBehaviour
 
     void Update()
     {
+
         float x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
         float z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
         transform.Translate(x, 0, z);
+
+		if (Input.GetKeyUp(KeyCode.Alpha1)) {
+			useAbility(0);
+		}
+		
+		if (Input.GetKeyUp(KeyCode.Alpha2)) {
+			useAbility(0);
+		}
+		
+		if (Input.GetKeyUp(KeyCode.Alpha3)) {
+			useAbility(0);
+		}
+            
     }
 
 	public void takeDamage(int damage) {

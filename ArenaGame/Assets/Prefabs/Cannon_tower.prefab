@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: {fileID: 1446016341619798, guid: 51591e09233a09847b5fe33d053c074d, type: 2}
-  reloadTimeMin: 1
-  reloadTimeMax: 4
+  reloadTimeMin: 0.2
+  reloadTimeMax: 2
   shootPoint: {fileID: 4986797123787536}
   canShoot: 1

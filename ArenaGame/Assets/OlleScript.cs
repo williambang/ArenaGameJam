@@ -1,21 +1,20 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class OlleScript : MonoBehaviour
 {
 	public float speed;
 	public int health;
 	public string playerName;
+	public Text healthUi;
+	public Text deathUi;
+	public GameObject[] abilites;
     public GameObject DeflectAbility;
 	public Transform player;
 
 	void Start() {
-	Instantiate(DeflectAbility, player.position, player.rotation, player);
-	}
-
-    private void Instantiate(GameObject deflectAbility, object position, object rotation, Transform player)
-    {
-        throw new NotImplementedException();
+		healthUi.text = health.ToString();
+	    Instantiate(DeflectAbility, player.position, player.rotation, player);
     }
 
     void Update()
@@ -29,10 +28,20 @@ public class OlleScript : MonoBehaviour
 	public void takeDamage(int damage) {
 
 		health = health - damage;
+		healthUi.text = health.ToString();
+		if(health <= 0) {
+			die();
+		}
 
 	}
 
-   // void Deflect() {
-	//	Instantiate(OlleEffect, player.position, player.rotation, player);
-	//}
+	void useAbility(int index) {
+		GameObject ability = abilites[index];
+		Instantiate(ability, transform.position, transform.rotation);
+	}
+
+	void die() {
+		deathUi.text = "You Died";
+		Destroy(gameObject);
+	}
 }

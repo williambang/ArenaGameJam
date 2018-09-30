@@ -10,6 +10,7 @@ public string Message;
 public float Range;
 public float Cooldown;
 public float Duration;
+public float InvertBullet = -10.0f;
 	void Start () {
 		Destroy(gameObject, Duration);
 	}
@@ -17,5 +18,11 @@ public float Duration;
 	// Update is called once per frame
 	void Update () {
 		
+	}
+	void OnCollisionEnter(Collision hitMe)
+	{
+		if(hitMe.gameObject.tag == "ammo") {
+			hitMe.gameObject.GetComponent<bulletScript>().speed = InvertBullet;
+		}
 	}
 }

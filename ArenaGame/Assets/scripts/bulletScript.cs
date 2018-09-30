@@ -23,10 +23,16 @@ public class bulletScript : MonoBehaviour {
 
 	void OnCollisionEnter(Collision hitCollision) {
 
-		Destroy(gameObject);
+		
 		
 		if(hitCollision.gameObject.tag == "player") {
 			hitCollision.gameObject.GetComponent<playerScript>().takeDamage(damage);
+			Destroy(gameObject);
+		}
+
+		if(hitCollision.gameObject.tag == "ammo") {
+			Destroy(gameObject);
+
 		}
 	}
 }

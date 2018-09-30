@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4226071816096712}
   - component: {fileID: 82155325473215518}
   - component: {fileID: 114620207430877850}
+  - component: {fileID: 135141311798394416}
   m_Layer: 0
   m_Name: OlleEffect
   m_TagString: Untagged
@@ -181,7 +182,20 @@ MonoBehaviour:
   Message: yoyoyo
   Range: 0
   Cooldown: 0
-  Duration: 0
+  Duration: 100
+  InvertBullet: -10
+--- !u!135 &135141311798394416
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321365878943948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!198 &198297710710587560
 ParticleSystem:
   m_ObjectHideFlags: 1
